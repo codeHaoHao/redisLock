@@ -1,7 +1,7 @@
 # redisLock
 构建分布式redis分布式锁，简易不可重入的锁和可重入的锁
 ## 项目结构
-<image src='https://github.com/codeHaoHao/readME-file/blob/master/redis-file/project_structure.png'/>
+<image align='center' width='50%' height='50%' src='https://github.com/codeHaoHao/readME-file/blob/master/redis-file/project_structure.png'/>
 <li>其中Jedis为自定义的jedis操作接口，并没有写具体的实现</li>
 <li>RedisLock为自定义实现锁的顶层接口</li>
 <li>ReentrantRedisLock为可重入redis锁</li>
