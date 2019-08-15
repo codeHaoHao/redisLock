@@ -33,7 +33,6 @@ public class UnReentrantRedisLock implements RedisLock{
         e.printStackTrace();
       }
     }
-    
     return null;
   }
 
